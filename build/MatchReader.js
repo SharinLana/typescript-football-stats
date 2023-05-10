@@ -3,7 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MatchReader = void 0;
 const DateConverter_1 = require("./utils/DateConverter");
 const CsvFileReader_1 = require("./CsvFileReader");
+// Step 5
 class MatchReader {
+    // Step 6: to call the result right from the class (see Step 7 in index.ts)
     static fromCsv(filename) {
         return new MatchReader(new CsvFileReader_1.CsvFileReader(filename));
     }

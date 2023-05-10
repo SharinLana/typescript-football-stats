@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.HtmlOutput = void 0;
 const fs_1 = __importDefault(require("fs"));
+// Step 12. See Step 13 in Summary.ts
 class HtmlOutput {
     print(report) {
         const html = `
